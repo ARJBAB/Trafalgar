@@ -196,7 +196,7 @@ header {
   color: #458ff6;
   font-size: 18px;
   font-weight: 700;
-  margin: 100px 28vw 50px ;
+  margin: 100px 28vw 50px;
 }
 
 /* end of our services section */
@@ -258,7 +258,7 @@ header {
 .mobile-apps {
   display: flex;
   width: 80%;
-  margin :100px;
+  margin: 100px;
   gap: 100px;
 }
 .mobile-apps .left {
@@ -334,20 +334,20 @@ header {
   margin: 30px;
 }
 
-.feedback .item-1{
+.feedback .item-1 {
   display: flex;
   align-items: end;
   margin-top: 180px;
-  }
+}
 
-  .feedback .founder-details{
-    padding: 20px;
-  }
-.item-1 span{
+.feedback .founder-details {
+  padding: 20px;
+}
+.item-1 span {
   font-weight: 700;
   font-size: 22px;
 }
-.item-1 p{
+.item-1 p {
   font-weight: 400;
   font-size: 18px;
 }
@@ -357,7 +357,7 @@ header {
   font-size: 19px;
   font-weight: 400;
   line-height: 30px;
-  padding: 60px 0 0 0 ;
+  padding: 60px 0 0 0;
 }
 
 /* end of feedback section */
@@ -383,7 +383,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 50px;
-  gap:15px;
+  gap: 15px;
 }
 
 .article-grid div {
@@ -392,7 +392,7 @@ header {
   border-radius: 30px;
 }
 
-.article-grid img{
+.article-grid img {
   width: 100%;
 }
 

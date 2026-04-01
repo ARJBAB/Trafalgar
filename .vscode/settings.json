@@ -1,9 +1,0 @@
-{
-  "liveServer.settings.port": 5501,
-  "editor.fontSize": 12,
-  "editor.fontFamily": "DM sans",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "on"
-}
