@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px 200px;
+  font-family: DM sans;
+}
+.header-box {
+  width: 970px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e0e62;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+li {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buy {
+  width: 80px;
+  height: 40px;
+  background: #482be7;
+  border-radius: 100px;
+  border: transparent;
+  margin: 0 20px;
+  color: #fff;
+}
+
+svg {
+  display: none;
+}
+
+.hero {
+  display: flex;
+}
+
+.left-hero {
+  width: 50vw;
+  margin: 60px 0;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #1e0e62;
+  width: 400px;
+  height: 210px;
+  line-height: 70px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.left-hero p {
+  font-size: 22px;
+  width: 370px;
+  line-height: 32px;
+  color: #15143966;
+  margin-bottom: 30px;
+}
+
+#btn1 {
+  width: 153px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 26px;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  background: #25dac5;
+}
+
+#btn2 {
+  color: #1e0e62;
+  font-size: 18px;
+  background: none;
+  border: none;
+  margin: 20px;
+}
+
+img {
+  margin-top: 30px;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+  body {
+    margin: 0 ;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100vh;
+    max-width: 900px;
+  }
+  .header-box {
+    max-width: 80vw;
+  }
+  span {
+    font-size: 25px;
+  }
+
+  nav {
+    display: none;
+  }
+  .hero {
+    display: block;
+  }
+  .left-hero {
+  }
+
+  h1 {
+    font-size:;
+    width: 60vw;
+    height: 350px;
+    font-weight:;
+    line-height:;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  }
+  .left-hero p {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 80vw;
+  }
+  img {
+    width: 70vw;
+  }
+  #btn1,
+  #btn2 {
+    display: block;
+    width: 80vw;
+  }
+  #cart {
+    margin-right: -200px;
+  }
+  svg {
+    display: inline-block;
+    size: 16px;
+    color: #482be7;
+    margin-right: -50px;
+  }
+}
